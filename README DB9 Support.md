@@ -11,7 +11,7 @@ Core Menu:
 https://github.com/Miguel-T80c/Menu_MiSTer/tree/master/releases
 
 
-Menu control from DB9 joystick:
+Menu control from DB9 joystick: 
 Start+C-> Show OSD menu  |  A-> Enter  |  B-> Esc
 
 
