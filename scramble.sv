@@ -259,7 +259,7 @@ wire ioctl_download;
 wire ioctl_wait;
 
 // M S F2 F1 U D L R 
-wire [31:0] joystick_0 = joydb_1ena ? (OSD_STATUS? 32'b000000 : {joydb_1[11]|(joydb_1[10]&joydb_1[5]),joydb_1[10],joydb_1[5:0]}) : joystick_0_USB;
+wire [31:0] joystick_0 = joydb_1ena ? (OSD_STATUS? 32'b000000 : {joydb_1[11],joydb_1[10],joydb_1[5:0]}) : joystick_0_USB;
 
 
 
